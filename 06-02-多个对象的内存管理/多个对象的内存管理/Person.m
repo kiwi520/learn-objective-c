@@ -19,8 +19,14 @@
 -(void)setCar:(Car *)car{
     // 传入的对象有新增使用者时，应该向这个对象发送retain消息
     // 给car 发送一条retain消息
-    [car retain];
-    _car = car;
+    
+    //当我们将传入的Car对象赋值给_car属性的时候
+    // 代表1: _car属性原本指向的对象少一个使用者(发送release消息)
+    // 代表2:  传入的新对象多了一个使用者（发送retain消息）
+    if(_car != car){ // 不是同一个对象的时候才去操作
+        [_car release];
+        _car = [car retain];
+    }
 }
 -(Car *)car{
     return _car;

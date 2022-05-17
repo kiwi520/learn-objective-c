@@ -1,8 +1,8 @@
 //
 //  main.m
-//  多个对象的内存管理
+//  07-@property参数
 //
-//  Created by kiwi on 2022/5/10.
+//  Created by kiwi on 2022/5/14.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,9 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     Person *fj = [Person new];
-    Car *bmw = [Car new];
-    bmw.speed = 100;
-    fj.car = bmw;
+    Car *bmv = [Car new];
+    bmv.speed = 100;
+    fj.car = bmv;
     [fj drive];
     
     Car *benz = [Car new];
@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
     
     [fj drive];
     
-    [bmw release];
+    [bmv release];
     [benz release];
     [fj release];
     return 0;
