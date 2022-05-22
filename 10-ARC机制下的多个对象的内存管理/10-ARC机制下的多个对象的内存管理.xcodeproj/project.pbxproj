@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F487691628333FE000674D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F487691528333FE000674D11 /* main.m */; };
-		F487691E2833404700674D11 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F487691D2833404700674D11 /* Person.m */; };
-		F48769212833F31200674D11 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = F48769202833F31200674D11 /* Pig.m */; };
+		F497CC47283A27940017BBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F497CC46283A27940017BBEA /* main.m */; };
+		F497CC4F283A28730017BBEA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = F497CC4E283A28730017BBEA /* Car.m */; };
+		F497CC52283A2C0A0017BBEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F497CC51283A2C0A0017BBEA /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F487691028333FE000674D11 /* CopyFiles */ = {
+		F497CC41283A27940017BBEA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F487691228333FE000674D11 /* autoreleasepool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autoreleasepool; sourceTree = BUILT_PRODUCTS_DIR; };
-		F487691528333FE000674D11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F487691C2833404700674D11 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		F487691D2833404700674D11 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		F487691F2833F31200674D11 /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
-		F48769202833F31200674D11 /* Pig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+		F497CC43283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-ARC机制下的多个对象的内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F497CC46283A27940017BBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F497CC4D283A28730017BBEA /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		F497CC4E283A28730017BBEA /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		F497CC50283A2C0A0017BBEA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F497CC51283A2C0A0017BBEA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F487690F28333FE000674D11 /* Frameworks */ = {
+		F497CC40283A27940017BBEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,69 +44,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F487690928333FE000674D11 = {
+		F497CC3A283A27940017BBEA = {
 			isa = PBXGroup;
 			children = (
-				F487691428333FE000674D11 /* autoreleasepool */,
-				F487691328333FE000674D11 /* Products */,
+				F497CC45283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */,
+				F497CC44283A27940017BBEA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F487691328333FE000674D11 /* Products */ = {
+		F497CC44283A27940017BBEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F487691228333FE000674D11 /* autoreleasepool */,
+				F497CC43283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F487691428333FE000674D11 /* autoreleasepool */ = {
+		F497CC45283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */ = {
 			isa = PBXGroup;
 			children = (
-				F487691528333FE000674D11 /* main.m */,
-				F487691C2833404700674D11 /* Person.h */,
-				F487691D2833404700674D11 /* Person.m */,
-				F487691F2833F31200674D11 /* Pig.h */,
-				F48769202833F31200674D11 /* Pig.m */,
+				F497CC46283A27940017BBEA /* main.m */,
+				F497CC4D283A28730017BBEA /* Car.h */,
+				F497CC4E283A28730017BBEA /* Car.m */,
+				F497CC50283A2C0A0017BBEA /* Person.h */,
+				F497CC51283A2C0A0017BBEA /* Person.m */,
 			);
-			path = autoreleasepool;
+			path = "10-ARC机制下的多个对象的内存管理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F487691128333FE000674D11 /* autoreleasepool */ = {
+		F497CC42283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F487691928333FE000674D11 /* Build configuration list for PBXNativeTarget "autoreleasepool" */;
+			buildConfigurationList = F497CC4A283A27940017BBEA /* Build configuration list for PBXNativeTarget "10-ARC机制下的多个对象的内存管理" */;
 			buildPhases = (
-				F487690E28333FE000674D11 /* Sources */,
-				F487690F28333FE000674D11 /* Frameworks */,
-				F487691028333FE000674D11 /* CopyFiles */,
+				F497CC3F283A27940017BBEA /* Sources */,
+				F497CC40283A27940017BBEA /* Frameworks */,
+				F497CC41283A27940017BBEA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = autoreleasepool;
-			productName = autoreleasepool;
-			productReference = F487691228333FE000674D11 /* autoreleasepool */;
+			name = "10-ARC机制下的多个对象的内存管理";
+			productName = "10-ARC机制下的多个对象的内存管理";
+			productReference = F497CC43283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F487690A28333FE000674D11 /* Project object */ = {
+		F497CC3B283A27940017BBEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					F487691128333FE000674D11 = {
-						CreatedOnToolsVersion = 13.3.1;
+					F497CC42283A27940017BBEA = {
+						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = F487690D28333FE000674D11 /* Build configuration list for PBXProject "autoreleasepool" */;
+			buildConfigurationList = F497CC3E283A27940017BBEA /* Build configuration list for PBXProject "10-ARC机制下的多个对象的内存管理" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,31 +114,31 @@
 				en,
 				Base,
 			);
-			mainGroup = F487690928333FE000674D11;
-			productRefGroup = F487691328333FE000674D11 /* Products */;
+			mainGroup = F497CC3A283A27940017BBEA;
+			productRefGroup = F497CC44283A27940017BBEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F487691128333FE000674D11 /* autoreleasepool */,
+				F497CC42283A27940017BBEA /* 10-ARC机制下的多个对象的内存管理 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F487690E28333FE000674D11 /* Sources */ = {
+		F497CC3F283A27940017BBEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48769212833F31200674D11 /* Pig.m in Sources */,
-				F487691E2833404700674D11 /* Person.m in Sources */,
-				F487691628333FE000674D11 /* main.m in Sources */,
+				F497CC52283A2C0A0017BBEA /* Person.m in Sources */,
+				F497CC4F283A28730017BBEA /* Car.m in Sources */,
+				F497CC47283A27940017BBEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F487691728333FE000674D11 /* Debug */ = {
+		F497CC48283A27940017BBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		F487691828333FE000674D11 /* Release */ = {
+		F497CC49283A27940017BBEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,19 +247,17 @@
 			};
 			name = Release;
 		};
-		F487691A28333FE000674D11 /* Debug */ = {
+		F497CC4B283A27940017BBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		F487691B28333FE000674D11 /* Release */ = {
+		F497CC4C283A27940017BBEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -268,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F487690D28333FE000674D11 /* Build configuration list for PBXProject "autoreleasepool" */ = {
+		F497CC3E283A27940017BBEA /* Build configuration list for PBXProject "10-ARC机制下的多个对象的内存管理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F487691728333FE000674D11 /* Debug */,
-				F487691828333FE000674D11 /* Release */,
+				F497CC48283A27940017BBEA /* Debug */,
+				F497CC49283A27940017BBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F487691928333FE000674D11 /* Build configuration list for PBXNativeTarget "autoreleasepool" */ = {
+		F497CC4A283A27940017BBEA /* Build configuration list for PBXNativeTarget "10-ARC机制下的多个对象的内存管理" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F487691A28333FE000674D11 /* Debug */,
-				F487691B28333FE000674D11 /* Release */,
+				F497CC4B283A27940017BBEA /* Debug */,
+				F497CC4C283A27940017BBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F487690A28333FE000674D11 /* Project object */;
+	rootObject = F497CC3B283A27940017BBEA /* Project object */;
 }
